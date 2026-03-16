@@ -26,11 +26,12 @@ We recommend the following to ensure you clone with the required submodule
 
 Example: git for windows
 ```bash
-git clone https://github.com/AtalaSupport/DemoGallery_Desktop_DocumentViewerDemo_CS_x64.git DocumentViewerDemo
+git clone https://github.com/AtalaSupport/DemoGallery_Desktop_DocumentViewerDemo_CS_x64.git DocumentViewerDemo --recursive
 cd DocumentViewerDemo
 git submodule init
+git submodule update
 git pull
 ```
 
 ## Last Update
-2025-11-13 - TD
+2026-03-16 - TD
